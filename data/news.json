@@ -10,5 +10,39 @@
     "content": "some content",
     "category": "political",
     "id": "1655981265560"
+  },
+  {
+    "title": "test",
+    "content": "test",
+    "category": "breaking-news",
+    "id": "1655995900359"
+  },
+  {
+    "title": "test",
+    "content": "test",
+    "category": "breaking-news",
+    "id": "1655996315582",
+    "thumbnail": "http://localhost:3000/1655996315582-ideal-betaallink.jpg"
+  },
+  {
+    "title": "test",
+    "content": "test",
+    "category": "breaking-news",
+    "id": "1655996316865",
+    "thumbnail": "http://localhost:3000/1655996316865-ideal-betaallink.jpg"
+  },
+  {
+    "title": "test",
+    "content": "test",
+    "category": "breaking-news",
+    "id": "1655996317710",
+    "thumbnail": "http://localhost:3000/1655996317710-ideal-betaallink.jpg"
+  },
+  {
+    "title": "test",
+    "content": "test",
+    "category": "breaking-news",
+    "id": "1655996319464",
+    "thumbnail": "http://localhost:3000/1655996319464-ideal-betaallink.jpg"
   }
 ]

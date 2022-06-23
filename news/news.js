@@ -35,10 +35,13 @@ class News {
     return data.filter((news) => news.category === category);
   }
 
-  async create(data) {
+  async create(data, id, imageName) {
     const totalData = await this.getAll();
-    const id = this.createId();
-    totalData.push({ ...data, id });
+    totalData.push({
+      ...data,
+      id,
+      thumbnail: `http://localhost:3000/${imageName}`,
+    });
 
     await fs.promises.writeFile(this.path, JSON.stringify(totalData, null, 2));
   }
