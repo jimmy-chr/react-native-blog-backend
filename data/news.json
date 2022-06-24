@@ -44,5 +44,40 @@
     "category": "breaking-news",
     "id": "1655996319464",
     "thumbnail": "http://localhost:3000/1655996319464-ideal-betaallink.jpg"
+  },
+  {
+    "title": "tester",
+    "content": "tester",
+    "category": "entertainment",
+    "id": "1656077623537",
+    "thumbnail": "http://localhost:3000/1656077623537-20200328_092520.jpg"
+  },
+  {
+    "title": "tester",
+    "content": "tester",
+    "category": "entertainment",
+    "id": "1656077628858",
+    "thumbnail": "http://localhost:3000/1656077628858-20200328_092520.jpg"
+  },
+  {
+    "title": "tester",
+    "content": "tester",
+    "category": "entertainment",
+    "id": "1656078334473",
+    "thumbnail": "http://localhost:3000/1656078334473-20200328_092520.jpg"
+  },
+  {
+    "title": "test",
+    "content": "test",
+    "category": "0",
+    "id": "1656078417013",
+    "thumbnail": "http://localhost:3000/1656078417013-20200328_092520.jpg"
+  },
+  {
+    "title": "test",
+    "content": "test",
+    "category": "breaking-news",
+    "id": "1656080920723",
+    "thumbnail": "http://localhost:3000/1656080920723-20200328_092520.jpg"
   }
 ]

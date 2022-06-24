@@ -1,20 +1,16 @@
 const express = require("express");
 const router = express.Router();
-const multer = require("multer");
-const News = require("../news/news");
-const imageProcess = require("../utils/imageProcess");
+const uploads = require("../middleware/multer");
+const { createNews } = require("../controllers/news");
+const { validator, result, validateFile } = require("../middleware/validator");
 
-const storage = multer.memoryStorage();
-const uploads = multer({ storage });
-
-router.post("/create", uploads.single("thumbnail"), async (req, res) => {
-  const news = new News();
-  const id = news.createId();
-
-  const imageName = await imageProcess(req, id);
-
-  news.create(req.body, id, imageName);
-  res.send("submit successful");
-});
+router.post(
+  "/create",
+  uploads.single("thumbnail"),
+  validator,
+  result,
+  validateFile,
+  createNews
+);
 
 module.exports = router;
