@@ -1,83 +1,18 @@
 [
   {
-    "title": "some title",
-    "content": "some content",
+    "title": "test",
+    "content": "testers",
+    "category": "breaking-news",
+    "id": "1656322266229",
+    "desc": "testers...",
+    "thumbnail": "http://localhost:3000/1656322266229-20220314_181257.jpg"
+  },
+  {
+    "title": "testers",
+    "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
     "category": "tech",
-    "id": "1655981235814"
-  },
-  {
-    "title": "some title",
-    "content": "some content",
-    "category": "political",
-    "id": "1655981265560"
-  },
-  {
-    "title": "test",
-    "content": "test",
-    "category": "breaking-news",
-    "id": "1655995900359"
-  },
-  {
-    "title": "test",
-    "content": "test",
-    "category": "breaking-news",
-    "id": "1655996315582",
-    "thumbnail": "http://localhost:3000/1655996315582-ideal-betaallink.jpg"
-  },
-  {
-    "title": "test",
-    "content": "test",
-    "category": "breaking-news",
-    "id": "1655996316865",
-    "thumbnail": "http://localhost:3000/1655996316865-ideal-betaallink.jpg"
-  },
-  {
-    "title": "test",
-    "content": "test",
-    "category": "breaking-news",
-    "id": "1655996317710",
-    "thumbnail": "http://localhost:3000/1655996317710-ideal-betaallink.jpg"
-  },
-  {
-    "title": "test",
-    "content": "test",
-    "category": "breaking-news",
-    "id": "1655996319464",
-    "thumbnail": "http://localhost:3000/1655996319464-ideal-betaallink.jpg"
-  },
-  {
-    "title": "tester",
-    "content": "tester",
-    "category": "entertainment",
-    "id": "1656077623537",
-    "thumbnail": "http://localhost:3000/1656077623537-20200328_092520.jpg"
-  },
-  {
-    "title": "tester",
-    "content": "tester",
-    "category": "entertainment",
-    "id": "1656077628858",
-    "thumbnail": "http://localhost:3000/1656077628858-20200328_092520.jpg"
-  },
-  {
-    "title": "tester",
-    "content": "tester",
-    "category": "entertainment",
-    "id": "1656078334473",
-    "thumbnail": "http://localhost:3000/1656078334473-20200328_092520.jpg"
-  },
-  {
-    "title": "test",
-    "content": "test",
-    "category": "0",
-    "id": "1656078417013",
-    "thumbnail": "http://localhost:3000/1656078417013-20200328_092520.jpg"
-  },
-  {
-    "title": "test",
-    "content": "test",
-    "category": "breaking-news",
-    "id": "1656080920723",
-    "thumbnail": "http://localhost:3000/1656080920723-20200328_092520.jpg"
+    "id": "1656322280057",
+    "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alter...",
+    "thumbnail": "http://localhost:3000/1656322280057-20220314_181257.jpg"
   }
 ]

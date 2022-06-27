@@ -1,7 +1,12 @@
 const express = require("express");
 const router = express.Router();
 const uploads = require("../middleware/multer");
-const { createNews } = require("../controllers/news");
+const {
+  createNews,
+  getAllNews,
+  getSingleNews,
+  getNewsByCategory,
+} = require("../controllers/news");
 const { validator, result, validateFile } = require("../middleware/validator");
 
 router.post(
@@ -12,5 +17,9 @@ router.post(
   validateFile,
   createNews
 );
+
+router.get("/news", getAllNews);
+router.get("/news/single/:id", getSingleNews);
+router.get("/news/:category", getNewsByCategory);
 
 module.exports = router;
